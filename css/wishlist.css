@@ -1,0 +1,116 @@
+.head__start{
+    max-width: 1442px;
+    margin: 0 auto;
+    background-color: #000000;
+    height: 48px;
+}
+.container{
+    max-width: 1442px;
+    margin: 0 auto;
+    padding: 0 16px;
+    
+}
+
+hr{
+    border: 1px solid #d3d3d3;
+}
+.head__nav{
+    text-align: center;
+    background-color: #000000;
+    max-width: 859px;
+    width: 100%;
+    height: 24px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center ;
+}
+.head__nav p{
+    color: #fff;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav__logo h1{
+    font-size: 24px;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+
+}
+.navbar__collection{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+.navbar__collection a{
+    text-decoration: none;
+    color: #000000;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2px;
+    flex-wrap: wrap;
+  }
+  .card {
+    border-radius: 10px;
+    padding: 12px;
+  }
+  .card p {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+  }
+  .card h3 {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    overflow: hidden;
+    margin-top: 20px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+  }
+  .card img {
+    background-color: #F5F5F5;
+    border-radius: 4px;
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+  }
+  .like-btn{
+    border: none;
+    background: #d3d3d3;
+    border-radius: 4px;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 100px;
+    cursor: pointer;
+    height: 34px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    color: #fff;
+    transition: .3s;
+
+}
+.like-btn:hover{
+    color: #fff;
+    transform: scale(1.05);
+    background-color: #6d0a0a;
+}
