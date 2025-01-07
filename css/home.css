@@ -120,6 +120,7 @@ hr{
     grid-template-columns: repeat(6, 1fr);
 }
 .items{
+  margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -401,7 +402,9 @@ border-radius: 4px;
 
 
 
-
+.icons{
+  display: flex;
+}
 
 
 
@@ -409,6 +412,7 @@ border-radius: 4px;
     background: black;
     color: white;
     margin: 0 auto;
+    overflow: hidden;
     display: flex;
     max-width: 1440px;
 
@@ -527,4 +531,147 @@ border-radius: 4px;
     font-family: "Poppins", serif;
     font-weight: 400;
     font-style: normal;
+}
+.different__product{}
+.pl__stadion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width:1205px) {
+  .head__asset img{
+    width: 900px;
+  }
+
+.middle__img{
+  display: none;
+}
+}
+@media (max-width:1205px){
+  .different__product img {
+    display: none;
+  }
+  .row__one{
+    display: none;
+  }
+}
+
+@media (max-width:1075px) {
+  .category__collection{
+   grid-template-columns: repeat(3, 1fr); 
+  }
+  .wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .loading{
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width:930px) {
+  .head__asset img{
+    display: none;
+  }
+  .row__two{
+    display: none;
+  }
+  .wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .loading{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width:775px) {
+  .icons{
+    display: none;
+  }
+  .search__icon img{
+    display: none;
+  }
+  .services{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width:730px){
+  .search{
+    max-width: 200px;
+    width: 100%;
+    margin-left: -50px;
+  }
+  .navbar__collection{
+    gap: 10px;
+    margin-left: -30px;
+    margin-right: 60px;
+  }
+  .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav__logo h1{
+    display: none;
+  }
+  .navbar__collection a{
+     font-size: 10px;
+  }
+}
+@media (max-width:620px) {
+  .head__nav p{
+    font-size: 10px;
+  }
+  .row__four{
+    display: none;
+  }
+  .services{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .wrapper{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .loading{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width:570px) {
+  .category__collection{
+    grid-template-columns: repeat(2, 1fr); 
+   }
+   .different__product{
+    display: none;
+   }
+   .pl__stadion img{
+        display: none;
+   }
+}
+@media (max-width:400px) {
+  .category__collection{
+    grid-template-columns: repeat(1, 1fr); 
+   }
+   
+  .navbar__collection{
+    gap: 10px;
+    margin-left: -100px;
+  }
+  .footer{
+    flex-direction: column;
+  }
+  .search{
+    
+    max-width: 100px;
+    width: 100%;
+  }
+  .row__three{
+    flex-direction: column;
+  }
+  .row__three{
+    display: none;
+  }
+  
 }
